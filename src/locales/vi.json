@@ -1,0 +1,256 @@
+{
+  "RootLayout": {
+    "home_link": "Trang chủ",
+    "about_link": "Giới thiệu",
+    "counter_link": "Bộ đếm",
+    "portfolio_link": "Portfolio",
+    "sign_in_link": "Đăng nhập",
+    "sign_up_link": "Đăng ký"
+  },
+  "BaseTemplate": {
+    "description": "Mã khởi động cho Nextjs Boilerplate của bạn với Tailwind CSS",
+    "made_with": "Được tạo bởi <author></author>."
+  },
+  "Index": {
+    "meta_title": "Trình bày Next.js Boilerplate",
+    "meta_description": "Next js Boilerplate là mã khởi động hoàn hảo cho dự án của bạn. Xây dựng ứng dụng React của bạn với framework Next.js.",
+    "sponsors_title": "Nhà tài trợ"
+  },
+  "Counter": {
+    "meta_title": "Bộ đếm",
+    "meta_description": "Ví dụ về thao tác DB",
+    "loading_counter": "Đang tải bộ đếm...",
+    "security_powered_by": "Bảo mật, phát hiện bot và giới hạn tốc độ được cung cấp bởi"
+  },
+  "CounterForm": {
+    "presentation": "Bộ đếm được lưu trong cơ sở dữ liệu và tăng theo giá trị bạn cung cấp.",
+    "label_increment": "Tăng thêm",
+    "button_increment": "Tăng"
+  },
+  "CurrentCount": {
+    "count": "Số đếm: {count}"
+  },
+  "About": {
+    "meta_title": "Giới thiệu",
+    "meta_description": "Mô tả trang giới thiệu",
+    "about_paragraph": "Chào mừng đến trang Giới thiệu của chúng tôi! Chúng tôi là một nhóm các cá nhân đam mê, tận tâm tạo ra phần mềm tuyệt vời.",
+    "translation_powered_by": "Bản dịch được cung cấp bởi"
+  },
+  "Portfolio": {
+    "meta_title": "Portfolio",
+    "meta_description": "Chào mừng đến trang portfolio của tôi!",
+    "presentation": "Chào mừng đến trang portfolio của tôi! Ở đây bạn sẽ tìm thấy bộ sưu tập được tuyển chọn cẩn thận về công việc và thành tựu của tôi. Thông qua portfolio này, tôi muốn thể hiện chuyên môn, sự sáng tạo và giá trị mà tôi có thể mang lại cho các dự án của bạn.",
+    "portfolio_name": "Portfolio {name}",
+    "error_reporting_powered_by": "Báo cáo lỗi được cung cấp bởi",
+    "coverage_powered_by": "Bao phủ mã được cung cấp bởi"
+  },
+  "PortfolioSlug": {
+    "meta_title": "Portfolio {slug}",
+    "meta_description": "Mô tả Portfolio {slug}",
+    "header": "Portfolio {slug}",
+    "content": "Đã tạo một bộ tài liệu quảng cáo và các yếu tố thương hiệu cho một sự kiện doanh nghiệp. Tạo một chủ đề thống nhất về mặt thị giác, bao gồm logo, poster, banner và tài sản kỹ thuật số. Tích hợp bản sắc thương hiệu của khách hàng trong khi truyền tải nó với cách tiếp cận đương đại và sáng tạo. Nhận được phản hồi tích cực từ những người tham dự sự kiện, dẫn đến một sự kiện thành công với sự tham gia cao hơn của người tham gia và tăng khả năng hiển thị thương hiệu.",
+    "log_management_powered_by": "Quản lý nhật ký được cung cấp bởi"
+  },
+  "SignIn": {
+    "meta_title": "Đăng nhập",
+    "meta_description": "Đăng nhập vào tài khoản của bạn một cách liền mạch với quy trình đăng nhập thân thiện với người dùng."
+  },
+  "SignUp": {
+    "meta_title": "Đăng ký",
+    "meta_description": "Tạo tài khoản một cách dễ dàng thông qua quy trình đăng ký trực quan của chúng tôi."
+  },
+  "Dashboard": {
+    "meta_title": "Bảng điều khiển",
+    "hello_message": "Xin chào {email}!",
+    "alternative_message": "Muốn xây dựng SaaS của bạn nhanh hơn bằng cách sử dụng cùng stack? Hãy thử <url></url>."
+  },
+  "UserProfile": {
+    "meta_title": "Hồ sơ người dùng"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "Bảng điều khiển",
+    "user_profile_link": "Quản lý tài khoản của bạn",
+    "sign_out": "Đăng xuất"
+  },
+  "Shared": {
+    "login": "Đăng nhập",
+    "yes": "Có",
+    "close": "Đóng",
+    "settings": "Cài đặt",
+    "logout": "Đăng xuất"
+  },
+  "Landing": {
+    "navbar": {
+      "sign_in": "Đăng nhập",
+      "get_started": "Bắt đầu"
+    },
+    "hero": {
+      "badge": "Qualitell Q1",
+      "title": "Vòng tay tinh dầu thực vật đuổi muỗi tự nhiên",
+      "description": "Dây đeo silicon gel linh hoạt với lõi thực vật ba lớp giải phóng mùi hương nhẹ nhàng trong tối đa 90 ngày. Không DEET, không phun xịt nặng—chỉ cần đeo vào và ra ngoài.",
+      "shop_button": "Mua vòng tay",
+      "learn_button": "Tìm hiểu thêm",
+      "stats": {
+        "continuous_protection": "Bảo vệ liên tục",
+        "featherlight_design": "Thiết kế siêu nhẹ",
+        "adjusts_to_wrist": "Tự điều chỉnh theo cổ tay"
+      }
+    },
+    "craftsmanship": {
+      "badge": "Tay nghề",
+      "title": "Được thiết kế cho sự thoải mái, được chế tác để phòng thủ tự nhiên",
+      "description": "Mỗi vòng tay kết hợp vật liệu sạch với phần cứng được suy nghĩ kỹ: vỏ bọc silicon gel thoáng khí, nắp chi tiết vàng, và khung kim loại nhớ hình dạng uốn cong để ôm cổ tay của bạn.",
+      "features": {
+        "plant_essence": {
+          "title": "Tinh chất thực vật",
+          "subtitle": "Sả · bạch đàn · dầu chanh"
+        },
+        "anti_sting": {
+          "title": "Yếu tố chống đốt",
+          "subtitle": "Tạo ra lá chắn muỗi tránh xa"
+        },
+        "90_day_repellent": {
+          "title": "Đuổi muỗi 90 ngày",
+          "subtitle": "Lõi ba lớp giải phóng chậm"
+        },
+        "memory_metal": {
+          "title": "Kim loại nhớ hình",
+          "subtitle": "Thoải mái, giữ nguyên hình dạng"
+        }
+      }
+    },
+    "specs": {
+      "badge": "Thông số sản phẩm",
+      "title": "Được chế tác để đi du lịch cùng bạn",
+      "description": "Hồ sơ siêu nhẹ có thể đặt vào bất kỳ túi du lịch nào. Vỏ ngoài lau sạch, trong khi lõi bên trong có thể được làm mới bằng que thực vật mới cho chu kỳ 90 ngày khác.",
+      "labels": {
+        "product_name": "Tên sản phẩm",
+        "model": "Mẫu",
+        "product_color": "Màu sản phẩm",
+        "product_weight": "Trọng lượng sản phẩm",
+        "product_size": "Kích thước sản phẩm",
+        "packaging_size": "Kích thước bao bì",
+        "material": "Chất liệu",
+        "execution_standard": "Tiêu chuẩn thực hiện"
+      },
+      "values": {
+        "product_name": "Qualitell Plant Essential Oil Bracelet Q1",
+        "model": "ZSC222111",
+        "product_color": "Xanh lá, Hồng",
+        "product_weight": "17 g",
+        "product_size": "Khoảng 240 mm",
+        "packaging_size": "107 x 133 x 20 mm",
+        "material": "Silica gel + dây thép nhớ hình",
+        "execution_standard": "GB 4806.11-2016"
+      }
+    },
+    "lifestyle": {
+      "badge": "Đeo theo cách của bạn",
+      "title": "Vòng tay kim loại nhớ hình có thể dễ dàng điều chỉnh kích thước",
+      "description": "Được làm bằng dây thép nhớ hình, tự động điều chỉnh kích thước để vừa với cổ tay. Không có khóa, không kẹp—chỉ cần đeo vào và nó sẽ tự động điều chỉnh theo hình dạng của bạn.",
+      "features": {
+        "one_size": "Một kích thước phù hợp với tất cả cổ tay một cách thoải mái",
+        "stackable": "Đeo chồng với các vòng tay khác hoặc đơn lẻ",
+        "colors": "Có sẵn màu xanh lá và hồng"
+      }
+    },
+    "highlights": {
+      "badge": "Tại sao nó hoạt động",
+      "title": "Ba lớp bảo vệ, một vòng tay đơn giản",
+      "items": {
+        "pure_plant": {
+          "title": "Chiết xuất thực vật thuần túy không có DEET",
+          "description": "Được chiết xuất từ các loại thực vật tự nhiên như dầu sả, dầu bạch đàn và dầu chanh, công thức khoa học mới an toàn và lành mạnh để đuổi muỗi."
+        },
+        "360_repellent": {
+          "title": "Đuổi muỗi toàn thân 360°",
+          "description": "Làm sạch mùi cơ thể người, giải phóng mùi mà muỗi không thích, và chống lại sự quấy rầy của muỗi."
+        },
+        "waterproof": {
+          "title": "Hoàn toàn chống nước và mồ hôi",
+          "description": "Sử dụng lõi không tan trong nước, cung cấp khả năng bảo vệ hoàn toàn chống nước và mồ hôi."
+        }
+      }
+    },
+    "comparison": {
+      "badge": "Biểu đồ hiệu quả đuổi muỗi",
+      "title": "Bay hơi lâu dài và ổn định",
+      "description": "Lõi que đuổi muỗi của chúng tôi cung cấp yếu tố đuổi muỗi hạng A lên đến 90 ngày, trong khi miếng dán mất hiệu quả sau một ngày và vòng đuổi muỗi dùng một lần chỉ kéo dài vài giờ.",
+      "items": {
+        "repellent_stick": {
+          "label": "Lõi que đuổi muỗi",
+          "ours": "Lên đến 90 ngày",
+          "others": "Bay hơi lâu dài và ổn định (Yếu tố đuổi muỗi hạng A)"
+        },
+        "repellent_patch": {
+          "label": "Miếng dán đuổi muỗi",
+          "ours": "—",
+          "others": "1 ngày (nhanh chóng mất hiệu quả)"
+        },
+        "cartoon_ring": {
+          "label": "Vòng đuổi muỗi hoạt hình",
+          "ours": "—",
+          "others": "Vài giờ (Dùng một lần)"
+        }
+      }
+    },
+    "cta": {
+      "title": "Đuổi muỗi lâu dài 90 ngày",
+      "description": "Nâng cấp với 3 lớp lõi đuổi muỗi, bao gồm lõi bên trong 3 lớp để tăng hiệu quả. Cung cấp bảo vệ đuổi muỗi lên đến 90 ngày khi sử dụng.",
+      "order_button": "Đặt hàng ngay",
+      "learn_button": "Tìm hiểu thêm"
+    },
+    "preOrder": {
+      "title": "Đặt hàng trước",
+      "description": "Điền thông tin để đặt hàng sản phẩm Qualitell Q1",
+      "fields": {
+        "name": "Họ và tên",
+        "phone": "Số điện thoại",
+        "quantity": "Số lượng",
+        "color": "Màu sản phẩm",
+        "email": "Email (tùy chọn)"
+      },
+      "placeholders": {
+        "name": "Nhập họ và tên",
+        "phone": "Nhập số điện thoại",
+        "quantity": "Nhập số lượng",
+        "color": "Chọn màu sản phẩm",
+        "email": "Nhập email (nếu có)"
+      },
+      "colors": {
+        "green": "Xanh lá (Green)",
+        "pink": "Hồng (Pink)"
+      },
+      "validation": {
+        "name": {
+          "required": "Tên là bắt buộc",
+          "min": "Tên phải có ít nhất 2 ký tự",
+          "max": "Tên không được vượt quá 50 ký tự"
+        },
+        "phone": {
+          "required": "Số điện thoại là bắt buộc",
+          "invalid": "Số điện thoại không hợp lệ (10-11 số)"
+        },
+        "quantity": {
+          "required": "Số lượng là bắt buộc",
+          "min": "Số lượng tối thiểu là 1",
+          "max": "Số lượng tối đa là 10",
+          "integer": "Số lượng phải là số nguyên"
+        },
+        "color": {
+          "required": "Màu sản phẩm là bắt buộc"
+        },
+        "email": {
+          "invalid": "Email không hợp lệ"
+        },
+        "spam": "Phát hiện spam",
+        "rateLimit": "Vui lòng đợi {seconds} giây trước khi gửi lại"
+      },
+      "submit": "Gửi đơn hàng",
+      "cancel": "Hủy",
+      "success": "Đặt hàng thành công! Chúng tôi sẽ liên hệ với bạn sớm nhất.",
+      "error": "Có lỗi xảy ra. Vui lòng thử lại sau."
+    }
+  }
+}
+

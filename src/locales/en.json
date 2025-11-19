@@ -78,5 +78,178 @@
     "close": "Close",
     "settings": "Settings",
     "logout": "Logout"
+  },
+  "Landing": {
+    "navbar": {
+      "sign_in": "Sign In",
+      "get_started": "Get Started"
+    },
+    "hero": {
+      "badge": "Qualitell Q1",
+      "title": "Plant Essential Oil Bracelet that keeps mosquitoes away naturally",
+      "description": "A flexible silica gel band with a triple-layer botanical core that releases a gentle aroma halo for up to 90 days. No DEET, no heavy sprays—just slip it on and head outside.",
+      "shop_button": "Shop the bracelet",
+      "learn_button": "Learn more",
+      "stats": {
+        "continuous_protection": "Continuous protection",
+        "featherlight_design": "Featherlight design",
+        "adjusts_to_wrist": "Adjusts to every wrist"
+      }
+    },
+    "craftsmanship": {
+      "badge": "Craftsmanship",
+      "title": "Engineered for comfort, crafted for natural defense",
+      "description": "Every bracelet blends clean materials with thoughtful hardware: a breathable silica gel wrap, golden detail caps, and a memory metal spine that flexes to hug your wrist.",
+      "features": {
+        "plant_essence": {
+          "title": "Plant essence",
+          "subtitle": "Citronella · eucalyptus · lemon oil"
+        },
+        "anti_sting": {
+          "title": "Anti-sting factor",
+          "subtitle": "Creates a shield mosquitoes avoid"
+        },
+        "90_day_repellent": {
+          "title": "90-day repellent",
+          "subtitle": "Slow-release triple core"
+        },
+        "memory_metal": {
+          "title": "Memory metal",
+          "subtitle": "Comfortable, keeps its shape"
+        }
+      }
+    },
+    "specs": {
+      "badge": "Product parameters",
+      "title": "Built to travel with you",
+      "description": "A featherweight profile slots into any travel pouch. The outer shell wipes clean, while the inner cores can be refreshed with new botanical sticks for another 90-day cycle.",
+      "labels": {
+        "product_name": "Product name",
+        "model": "Model",
+        "product_color": "Product color",
+        "product_weight": "Product weight",
+        "product_size": "Product size",
+        "packaging_size": "Packaging size",
+        "material": "Material",
+        "execution_standard": "Execution standard"
+      },
+      "values": {
+        "product_name": "Qualitell Plant Essential Oil Bracelet Q1",
+        "model": "ZSC222111",
+        "product_color": "Green, Pink",
+        "product_weight": "17 g",
+        "product_size": "Approx. 240 mm",
+        "packaging_size": "107 x 133 x 20 mm",
+        "material": "Silica gel + memory steel wire",
+        "execution_standard": "GB 4806.11-2016"
+      }
+    },
+    "lifestyle": {
+      "badge": "Wear it your way",
+      "title": "Memory metal bracelet can be easily adjusted in size",
+      "description": "Made with memory steel wire, automatically adjusts size to fit wrist. No clasps, no pinching—just slip it on and it molds to your shape.",
+      "features": {
+        "one_size": "One size fits all wrists comfortably",
+        "stackable": "Wear stacked with other bracelets or solo",
+        "colors": "Available in green and pink"
+      }
+    },
+    "highlights": {
+      "badge": "Why it works",
+      "title": "Three layers of protection, one simple bracelet",
+      "items": {
+        "pure_plant": {
+          "title": "Pure plant extract without DEET",
+          "description": "Extracted from natural plants such as citronella oil, eucalyptus oil, and lemon oil, the brand new scientific formula is safe and healthy for repelling mosquitoes."
+        },
+        "360_repellent": {
+          "title": "360° full-body mosquito repellent",
+          "description": "Purifies human body odor, releases odors that mosquitoes dislike, and resists mosquito harassment."
+        },
+        "waterproof": {
+          "title": "Completely waterproof and sweatproof",
+          "description": "Uses a core that is not soluble in water, providing completely waterproof and sweatproof protection."
+        }
+      }
+    },
+    "comparison": {
+      "badge": "Mosquito repellent efficacy chart",
+      "title": "Long-lasting and stable volatilization",
+      "description": "Our repellent stick core delivers Grade A mosquito repellent factor for up to 90 days, while patches fade after a day and disposable rings last only hours.",
+      "items": {
+        "repellent_stick": {
+          "label": "Repellent stick core",
+          "ours": "Up to 90 days",
+          "others": "Long-lasting and stable volatilization (Grade A mosquito repellent factor)"
+        },
+        "repellent_patch": {
+          "label": "Repellent patch",
+          "ours": "—",
+          "others": "1 day (quickly ineffective)"
+        },
+        "cartoon_ring": {
+          "label": "Cartoon mosquito repellent ring",
+          "ours": "—",
+          "others": "Several hours (Disposable)"
+        }
+      }
+    },
+    "cta": {
+      "title": "90-Day Long-Lasting Mosquito Repellent",
+      "description": "Upgraded with 3 layers of mosquito repellent cores, including a 3-layer inner core for enhanced effectiveness. Provides up to 90 days of mosquito repellent protection when used.",
+      "order_button": "Order now",
+      "learn_button": "Learn more"
+    },
+    "preOrder": {
+      "title": "Pre-Order",
+      "description": "Fill in your information to pre-order Qualitell Q1 product",
+      "fields": {
+        "name": "Full Name",
+        "phone": "Phone Number",
+        "quantity": "Quantity",
+        "color": "Product Color",
+        "email": "Email (optional)"
+      },
+      "placeholders": {
+        "name": "Enter your full name",
+        "phone": "Enter phone number",
+        "quantity": "Enter quantity",
+        "color": "Select product color",
+        "email": "Enter email (if any)"
+      },
+      "colors": {
+        "green": "Green",
+        "pink": "Pink"
+      },
+      "validation": {
+        "name": {
+          "required": "Name is required",
+          "min": "Name must be at least 2 characters",
+          "max": "Name must not exceed 50 characters"
+        },
+        "phone": {
+          "required": "Phone number is required",
+          "invalid": "Invalid phone number (10-11 digits)"
+        },
+        "quantity": {
+          "required": "Quantity is required",
+          "min": "Minimum quantity is 1",
+          "max": "Maximum quantity is 10",
+          "integer": "Quantity must be an integer"
+        },
+        "color": {
+          "required": "Product color is required"
+        },
+        "email": {
+          "invalid": "Invalid email address"
+        },
+        "spam": "Spam detected",
+        "rateLimit": "Please wait {seconds} seconds before submitting again"
+      },
+      "submit": "Submit Order",
+      "cancel": "Cancel",
+      "success": "Order submitted successfully! We will contact you soon.",
+      "error": "An error occurred. Please try again later."
+    }
   }
 }
