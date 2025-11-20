@@ -39,11 +39,7 @@ const RadioField = (props: RadioFieldProps & AdditionalFormikProps) => {
 
   return (
     <div className={twMerge("flex flex-col gap-3", classNameContainer)}>
-      {label && (
-        <Label className={twMerge(required && "required", classNameLabel)}>
-          {label}
-        </Label>
-      )}
+      {label && <Label className={twMerge(required && "required", classNameLabel)}>{label}</Label>}
       <RadioGroup
         className={twMerge("gap-3", className)}
         onValueChange={onHandleChange}
@@ -52,12 +48,8 @@ const RadioField = (props: RadioFieldProps & AdditionalFormikProps) => {
         {options?.map((el, index) => {
           const id = `${el.label}-${index}`;
           return (
-            <div key={el.label} className={twMerge("flex gap-3")}>
-              <RadioGroupItem
-                id={id}
-                checked={value === el.value}
-                value={el.value}
-              />
+            <div key={id} className={twMerge("flex gap-3")}>
+              <RadioGroupItem id={id} checked={value === el.value} value={el.value} />
               <Label htmlFor={id}>{el.label}</Label>
             </div>
           );
