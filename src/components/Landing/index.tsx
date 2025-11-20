@@ -62,12 +62,6 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
             >
               {t("shop_button")}
             </button>
-            <Link
-              href="/sign-in"
-              className="inline-flex w-full items-center justify-center rounded-full border-2 border-emerald-200 px-5 py-2.5 text-sm font-medium text-emerald-700 transition hover:border-emerald-400 hover:bg-emerald-50 active:scale-95 sm:w-auto sm:px-6 sm:py-3 sm:text-base"
-            >
-              {t("learn_button")}
-            </Link>
           </div>
           <dl className="mt-8 grid w-full grid-cols-1 gap-3 sm:mt-10 sm:grid-cols-3 sm:gap-4">
             {heroStats.map((item) => (
@@ -392,7 +386,7 @@ function Comparison() {
                 <p className="font-semibold text-slate-900 sm:text-lg">{item.label}</p>
                 <div className="mt-2 flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-4">
                   {item.ours !== "—" ? (
-                    <span className="inline-flex w-fit rounded-full bg-emerald-100 px-4 py-1.5 text-sm font-semibold text-emerald-700">
+                    <span className="inline-flex w-fit rounded-full bg-emerald-100 px-4 py-1.5 text-sm font-semibold text-emerald-700 min-w-[100px] justify-center">
                       {item.ours}
                     </span>
                   ) : (
@@ -427,12 +421,6 @@ function CTA({ onOrderClick }: { onOrderClick: () => void }) {
           >
             {t("order_button")}
           </button>
-          <Link
-            href="/sign-in"
-            className="inline-flex items-center justify-center rounded-full border-2 border-white px-8 py-4 font-semibold text-white transition hover:bg-white/10 active:scale-95"
-          >
-            {t("learn_button")}
-          </Link>
         </div>
       </div>
     </section>

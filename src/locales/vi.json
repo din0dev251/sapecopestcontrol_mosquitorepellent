@@ -85,7 +85,7 @@
       "get_started": "Bắt đầu"
     },
     "hero": {
-      "badge": "Qualitell Q1",
+      "badge": "Vòng tay đuổi muỗi Sapeco",
       "title": "Vòng tay tinh dầu thực vật đuổi muỗi tự nhiên",
       "description": "Dây đeo silicon gel linh hoạt với lõi thực vật ba lớp giải phóng mùi hương nhẹ nhàng trong tối đa 90 ngày. Không DEET, không phun xịt nặng—chỉ cần đeo vào và ra ngoài.",
       "shop_button": "Mua vòng tay",
@@ -134,8 +134,8 @@
         "execution_standard": "Tiêu chuẩn thực hiện"
       },
       "values": {
-        "product_name": "Qualitell Plant Essential Oil Bracelet Q1",
-        "model": "ZSC222111",
+        "product_name": "Vòng tay tinh dầu thực vật Sapeco",
+        "model": "SAPECO-001",
         "product_color": "Xanh lá, Hồng",
         "product_weight": "17 g",
         "product_size": "Khoảng 240 mm",
@@ -179,7 +179,7 @@
       "items": {
         "repellent_stick": {
           "label": "Lõi que đuổi muỗi",
-          "ours": "Lên đến 90 ngày",
+          "ours": "90 ngày",
           "others": "Bay hơi lâu dài và ổn định (Yếu tố đuổi muỗi hạng A)"
         },
         "repellent_patch": {
@@ -202,7 +202,7 @@
     },
     "preOrder": {
       "title": "Đặt hàng trước",
-      "description": "Điền thông tin để đặt hàng sản phẩm Qualitell Q1",
+      "description": "Điền thông tin để đặt hàng sản phẩm Vòng tay đuổi muỗi Sapeco",
       "fields": {
         "name": "Họ và tên",
         "phone": "Số điện thoại",
@@ -251,6 +251,13 @@
       "success": "Đặt hàng thành công! Chúng tôi sẽ liên hệ với bạn sớm nhất.",
       "error": "Có lỗi xảy ra. Vui lòng thử lại sau."
     }
+  },
+  "NotFound": {
+    "badge": "Lỗi",
+    "title": "Trang không tìm thấy",
+    "description": "Xin lỗi, trang bạn đang tìm kiếm không tồn tại hoặc đã bị di chuyển.",
+    "goHome": "Về trang chủ",
+    "goBack": "Quay lại"
   }
 }
 

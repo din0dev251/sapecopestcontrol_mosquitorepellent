@@ -9,30 +9,48 @@ import { ReactQueryProvider } from "@/providers/ReactQueryProvider";
 import "@/styles/globals.css";
 import SidebarProvider from "@/providers/SidebarProvider";
 
-export const metadata: Metadata = {
-  icons: [
-    {
-      rel: "apple-touch-icon",
-      url: "/apple-touch-icon.png",
-    },
-    {
-      rel: "icon",
-      type: "image/png",
-      sizes: "32x32",
-      url: "/favicon-32x32.png",
-    },
-    {
-      rel: "icon",
-      type: "image/png",
-      sizes: "16x16",
-      url: "/favicon-16x16.png",
-    },
-    {
-      rel: "icon",
-      url: "/favicon.ico",
-    },
-  ],
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  
+  const metadata: Metadata = {
+    icons: [
+      {
+        rel: "apple-touch-icon",
+        url: "/apple-touch-icon.png",
+      },
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "32x32",
+        url: "/favicon-32x32.png",
+      },
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "16x16",
+        url: "/favicon-16x16.png",
+      },
+      {
+        rel: "icon",
+        url: "/favicon.ico",
+      },
+    ],
+  };
+
+  if (locale === "vi") {
+    metadata.title = "SAPECO - Tinh dầu đuổi muỗi";
+    metadata.description = "SAPECO - Tinh dầu đuổi muỗi tự nhiên, an toàn và hiệu quả. Bảo vệ gia đình bạn khỏi muỗi với sản phẩm chất lượng cao.";
+  } else {
+    metadata.title = "SAPECO - Mosquito Repellent Essential Oil";
+    metadata.description = "SAPECO - Natural, safe and effective mosquito repellent essential oil. Protect your family from mosquitoes with high quality products.";
+  }
+
+  return metadata;
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));

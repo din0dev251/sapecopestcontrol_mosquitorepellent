@@ -85,7 +85,7 @@
       "get_started": "Get Started"
     },
     "hero": {
-      "badge": "Qualitell Q1",
+      "badge": "Sapeco mosquito repellent bracelet",
       "title": "Plant Essential Oil Bracelet that keeps mosquitoes away naturally",
       "description": "A flexible silica gel band with a triple-layer botanical core that releases a gentle aroma halo for up to 90 days. No DEET, no heavy sprays—just slip it on and head outside.",
       "shop_button": "Shop the bracelet",
@@ -134,8 +134,8 @@
         "execution_standard": "Execution standard"
       },
       "values": {
-        "product_name": "Qualitell Plant Essential Oil Bracelet Q1",
-        "model": "ZSC222111",
+        "product_name": "Sapeco Plant Essential Oil Bracelet",
+        "model": "SAPECO-001",
         "product_color": "Green, Pink",
         "product_weight": "17 g",
         "product_size": "Approx. 240 mm",
@@ -179,7 +179,7 @@
       "items": {
         "repellent_stick": {
           "label": "Repellent stick core",
-          "ours": "Up to 90 days",
+          "ours": "90 days",
           "others": "Long-lasting and stable volatilization (Grade A mosquito repellent factor)"
         },
         "repellent_patch": {
@@ -202,7 +202,7 @@
     },
     "preOrder": {
       "title": "Pre-Order",
-      "description": "Fill in your information to pre-order Qualitell Q1 product",
+      "description": "Fill in your information to pre-order Sapeco product",
       "fields": {
         "name": "Full Name",
         "phone": "Phone Number",
@@ -251,5 +251,12 @@
       "success": "Order submitted successfully! We will contact you soon.",
       "error": "An error occurred. Please try again later."
     }
+  },
+  "NotFound": {
+    "badge": "Error",
+    "title": "Page Not Found",
+    "description": "Sorry, the page you are looking for does not exist or has been moved.",
+    "goHome": "Go Home",
+    "goBack": "Go Back"
   }
 }
