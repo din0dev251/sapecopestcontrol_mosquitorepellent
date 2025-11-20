@@ -1,5 +1,4 @@
 "use client";
-import { Link } from "@/lib/i18nNavigation";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import LandingNavbar from "./LandingNavbar";
